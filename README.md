@@ -1,9 +1,12 @@
+### DEMO地址
+    https://elon-hu.github.io/five-strone-game/
+
 ### 五子棋插件使用说明
 
 * PieceBase，Memento，GameBase 类为逻辑部分，没有依赖dom；
 * GameForDom 类为Dom渲染部分，若要用canvas实现，只需要把这个类替换成canvas对应实现的类；
 
-#### DEMO
+#### 用法
 ```javascript
     document.addEventListener('DOMContentLoaded', function () {
         var boardEl = document.getElementById('five-stone-board');
@@ -33,4 +36,4 @@
             game.restart();
         });
     });
-```# five-strone-game
+```
