@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#five-stone-board {
+    /* width: 800px; */
+    padding:15px;
+    position:relative;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    background: #d7b083;
+    margin:0 auto;
+}
+#five-stone-board .checker-content {
+    border-left: 1px solid brown;
+    border-top: 1px solid brown;
+}
+#five-stone-board .checker {
+    float: left;
+    border-bottom: 1px solid brown;
+    border-right: 1px solid brown;
+}
+#five-stone-board .piece {
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top:0px;
+    left:0px;
+}
+#five-stone-board .piece.black {
+    background: #000;
+}
+#five-stone-board .piece.white {
+    background: #ddd;
+}
+h3 {
+    text-align: center;
+}
+.turn {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+#who-action {
+    width: 31px;
+    height: 31px;
+    border: 1px solid black;
+    background: black;
+}
+.who-action-text {
+    padding-top: 5px; 
+    padding-left: 5px;
+    padding-right: 20px;
+}
+.toolbar button {
+    width: 120px;
+    text-align: center;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 16px;
+}
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 560px;
+    margin: auto;
+}
+#restart {
+    margin-left: auto;
+    background: green;
+    color: #fff;
+    border: none;
+}
