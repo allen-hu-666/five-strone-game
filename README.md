@@ -1,5 +1,4 @@
-### DEMO地址
-    https://elon-hu.github.io/five-strone-game/
+### [DEMO地址](https://elon-hu.github.io/five-strone-game/)
 
 ### 五子棋插件使用说明
 
